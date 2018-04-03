@@ -12,8 +12,8 @@ def renren_login():
     headers = {'User-agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'}
     postdata = {
         'domain':'logindomain',
-        'email':'524255527@qq.com',
-        'password':'xue12155175'
+        'email':'**********',    #个人帐号
+        'password':'×××××××××'   #个人密码
     }
 
     s=requests.session()
