@@ -4,6 +4,7 @@ import os
 f = requests.get('http://tieba.baidu.com/p/3181528205').text
 #用BS解析html
 s = BeautifulSoup(f,'lxml')
+print(s)
 s_imgs = s.find_all('img', pic_type = "0")
 
 i=0
